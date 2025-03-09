@@ -7,14 +7,14 @@
 
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #f0f0f0;
+    background-color: #f4f4f9;
     color: #333;
     line-height: 1.6;
 }
 
 /* Header Section */
 header {
-    background: linear-gradient(45deg, #FF6347, #FFD700);
+    background: linear-gradient(45deg, #1f77b4, #ff6347); /* Blue to Red gradient */
     color: white;
     padding: 40px 0;
     text-align: center;
@@ -52,7 +52,7 @@ nav ul li a:hover {
 
 /* Introduction Section */
 #intro {
-    background-color: #2e8b57;
+    background-color: #2ecc71; /* Green background */
     color: white;
     padding: 50px 0;
     text-align: center;
@@ -64,7 +64,7 @@ nav ul li a:hover {
 }
 
 .cta {
-    background-color: #ff4500;
+    background-color: #e74c3c; /* Red button */
     padding: 15px 30px;
     color: white;
     text-decoration: none;
@@ -79,7 +79,7 @@ nav ul li a:hover {
 
 /* About Section */
 #about {
-    background-color: #fff;
+    background-color: #ffffff;
     padding: 50px 0;
     text-align: center;
 }
@@ -98,7 +98,7 @@ nav ul li a:hover {
 
 /* Skills Section */
 #skills {
-    background: linear-gradient(45deg, #3498db, #9b59b6);
+    background: linear-gradient(45deg, #f39c12, #f1c40f); /* Yellow gradient */
     color: white;
     padding: 50px 0;
 }
@@ -125,7 +125,7 @@ nav ul li a:hover {
 
 /* Portfolio Section */
 #portfolio {
-    background: linear-gradient(135deg, #f39c12, #f1c40f);
+    background: linear-gradient(135deg, #8e44ad, #9b59b6); /* Purple gradient */
     color: white;
     padding: 50px 0;
 }
@@ -149,7 +149,7 @@ nav ul li a:hover {
 
 /* Contact Section */
 #contact {
-    background-color: #16a085;
+    background-color: #16a085; /* Teal background */
     color: white;
     padding: 50px 0;
 }
@@ -197,7 +197,7 @@ form button:hover {
 
 /* Footer Section */
 footer {
-    background-color: #2c3e50;
+    background-color: #2c3e50; /* Dark gray */
     color: white;
     text-align: center;
     padding: 30px 0;
