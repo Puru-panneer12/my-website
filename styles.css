@@ -1,154 +1,114 @@
-/* Global Styles */
-* {
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
-body {
-    font-family: 'Arial', sans-serif;
-    background-color: #f8f9fa;
-    color: #333;
-    line-height: 1.6;
-}
-
-/* Container for centralizing content */
 .container {
     width: 80%;
     margin: 0 auto;
 }
 
-/* Header */
 header {
     background-color: #007bff;
     color: white;
-    padding: 40px 0;
+    padding: 20px;
     text-align: center;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 header h1 {
-    font-size: 2.8rem;
-    margin-bottom: 10px;
+    margin: 0;
 }
 
 header p {
-    font-size: 1.5rem;
+    font-size: 1.2em;
 }
 
-/* Section Styling */
-h2 {
-    font-size: 2.4rem;
-    color: #007bff;
-    margin-bottom: 20px;
-    text-align: center;
+nav ul {
+    list-style: none;
+    padding: 0;
 }
 
-/* About Me */
-#about {
-    padding: 40px 0;
-    background-color: #f1f1f1;
-    text-align: center;
+nav ul li {
+    display: inline;
+    margin-right: 20px;
 }
 
-/* Experience */
-#experience {
-    padding: 40px 0;
-}
-
-.timeline {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-}
-
-.timeline-item {
-    background-color: #ffffff;
-    border-left: 5px solid #007bff;
-    padding: 20px;
-    margin: 10px 0;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-
-.timeline-item h3 {
-    font-size: 1.8rem;
-    color: #007bff;
-    margin-bottom: 10px;
-}
-
-.timeline-item p {
-    font-size: 1.1rem;
-    color: #555;
-}
-
-/* Skills */
-#skills {
-    background-color: #e9ecef;
-    padding: 40px 0;
-}
-
-#skills ul {
-    list-style-type: none;
-    text-align: center;
-}
-
-#skills li {
-    font-size: 1.1rem;
-    color: #555;
-    margin-bottom: 10px;
-}
-
-/* Certifications */
-#certifications {
-    padding: 40px 0;
-    background-color: #ffffff;
-}
-
-#certifications ul {
-    list-style-type: none;
-    text-align: center;
-}
-
-#certifications li {
-    font-size: 1.1rem;
-    margin-bottom: 10px;
-}
-
-/* Education */
-#education {
-    padding: 40px 0;
-    background-color: #f1f1f1;
-}
-
-#education ul {
-    list-style-type: none;
-    text-align: center;
-}
-
-#education li {
-    font-size: 1.1rem;
-    margin-bottom: 10px;
-}
-
-/* Contact */
-#contact {
-    padding: 40px 0;
-    background-color: #ffffff;
-    text-align: center;
-}
-
-#contact a {
-    color: #007bff;
+nav ul li a {
+    color: white;
     text-decoration: none;
+    font-size: 1.1em;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding: 40px 0;
+}
+
+h2, h3 {
+    color: #007bff;
+}
+
+.profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 20px 0;
+}
+
+.cta-btn {
+    display: inline-block;
+    background-color: #007bff;
+    color: white;
+    padding: 15px 25px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.cta-btn:hover {
+    background-color: #0056b3;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    margin: 10px 0;
+}
+
+/* Contact Form */
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+form button:hover {
+    background-color: #0056b3;
 }
 
 /* Footer */
 footer {
-    background-color: #007bff;
+    background-color: #333;
     color: white;
-    padding: 20px;
     text-align: center;
-    position: fixed;
-    width: 100%;
-    bottom: 0;
+    padding: 20px;
 }
