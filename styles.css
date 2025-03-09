@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* General Styles */
 body {
     font-family: Arial, sans-serif;
@@ -14,11 +15,23 @@ body {
 
 header {
     background-color: #007bff;
+=======
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+>>>>>>> parent of 13bdbfe (Customized website with professional design)
     color: white;
     padding: 20px;
     text-align: center;
 }
 
+<<<<<<< HEAD
 header h1 {
     margin: 0;
 }
@@ -106,9 +119,20 @@ form button:hover {
 }
 
 /* Footer */
+=======
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+>>>>>>> parent of 13bdbfe (Customized website with professional design)
 footer {
     background-color: #333;
     color: white;
     text-align: center;
+<<<<<<< HEAD
     padding: 20px;
+=======
+    padding: 10px;
+>>>>>>> parent of 13bdbfe (Customized website with professional design)
 }
