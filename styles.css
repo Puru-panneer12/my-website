@@ -1,4 +1,4 @@
-/* Reset some default styles */
+/* Global Styles */
 * {
     margin: 0;
     padding: 0;
@@ -6,203 +6,135 @@
 }
 
 body {
-    font-family: 'Arial', sans-serif;
-    background-color: #f4f4f9;
-    color: #333;
+    font-family: Arial, sans-serif;
     line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
 }
 
-/* Header Section */
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Header */
 header {
-    background: linear-gradient(45deg, #1f77b4, #ff6347); /* Blue to Red gradient */
-    color: white;
-    padding: 40px 0;
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
     text-align: center;
 }
 
 header h1 {
-    font-size: 3em;
+    font-size: 2.5rem;
     margin-bottom: 10px;
 }
 
-header h2 {
-    font-size: 1.8em;
-}
-
-nav ul {
-    list-style: none;
-    padding: 0;
-}
-
-nav ul li {
-    display: inline;
-    margin: 0 20px;
-}
-
-nav ul li a {
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
-    font-size: 1.2em;
-}
-
-nav ul li a:hover {
-    text-decoration: underline;
-}
-
-/* Introduction Section */
-#intro {
-    background-color: #2ecc71; /* Green background */
-    color: white;
-    padding: 50px 0;
-    text-align: center;
-}
-
-#intro p {
-    font-size: 1.3em;
-    margin-bottom: 20px;
-}
-
-.cta {
-    background-color: #e74c3c; /* Red button */
-    padding: 15px 30px;
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
-    border-radius: 5px;
-    font-size: 1.1em;
-}
-
-.cta:hover {
-    background-color: #c0392b;
+header p {
+    font-size: 1.2rem;
 }
 
 /* About Section */
 #about {
-    background-color: #ffffff;
-    padding: 50px 0;
+    padding: 40px 0;
     text-align: center;
 }
 
 #about h2 {
-    font-size: 2.5em;
-    margin-bottom: 30px;
-    color: #e74c3c;
+    font-size: 2rem;
+    margin-bottom: 20px;
 }
 
 #about p {
-    font-size: 1.2em;
-    max-width: 900px;
+    font-size: 1.1rem;
+    max-width: 800px;
     margin: 0 auto;
+}
+
+/* Experience Section */
+#experience {
+    padding: 40px 0;
+    background-color: #fff;
+}
+
+#experience h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.timeline {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.timeline-item {
+    padding: 15px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+.timeline-item h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.timeline-item p {
+    font-size: 1rem;
+    margin-bottom: 5px;
 }
 
 /* Skills Section */
 #skills {
-    background: linear-gradient(45deg, #f39c12, #f1c40f); /* Yellow gradient */
-    color: white;
-    padding: 50px 0;
+    padding: 40px 0;
+    text-align: center;
 }
 
 #skills h2 {
-    font-size: 2.5em;
-    margin-bottom: 30px;
-    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
 }
 
 #skills ul {
-    list-style: none;
-    padding: 0;
-    text-align: center;
+    list-style-type: none;
 }
 
-#skills ul li {
-    font-size: 1.2em;
-    margin: 15px 0;
-    padding: 10px;
-    background-color: rgba(255, 255, 255, 0.2);
-    border-radius: 10px;
-}
-
-/* Portfolio Section */
-#portfolio {
-    background: linear-gradient(135deg, #8e44ad, #9b59b6); /* Purple gradient */
-    color: white;
-    padding: 50px 0;
-}
-
-#portfolio h2 {
-    font-size: 2.5em;
-    margin-bottom: 30px;
-    text-align: center;
-}
-
-#portfolio ul {
-    list-style: none;
-    padding: 0;
-    text-align: center;
-}
-
-#portfolio ul li {
-    font-size: 1.3em;
-    margin: 10px 0;
+#skills li {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
 }
 
 /* Contact Section */
 #contact {
-    background-color: #16a085; /* Teal background */
-    color: white;
-    padding: 50px 0;
+    padding: 40px 0;
+    background-color: #fff;
+    text-align: center;
 }
 
 #contact h2 {
-    font-size: 2.5em;
-    margin-bottom: 30px;
-    text-align: center;
-}
-
-form {
-    display: flex;
-    flex-direction: column;
-    max-width: 700px;
-    margin: 0 auto;
-}
-
-form label {
-    margin: 15px 0 5px;
-    font-weight: bold;
-}
-
-form input, form textarea {
-    padding: 15px;
-    font-size: 1em;
+    font-size: 2rem;
     margin-bottom: 20px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
 }
 
-form button {
-    padding: 15px 30px;
-    background-color: #e74c3c;
-    color: white;
-    font-weight: bold;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 1.1em;
+#contact ul {
+    list-style-type: none;
 }
 
-form button:hover {
-    background-color: #c0392b;
+#contact li {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
 }
 
-/* Footer Section */
+/* Footer */
 footer {
-    background-color: #2c3e50; /* Dark gray */
-    color: white;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
     text-align: center;
-    padding: 30px 0;
 }
 
 footer p {
-    font-size: 1em;
+    font-size: 1rem;
 }
